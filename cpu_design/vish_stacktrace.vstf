@@ -1,0 +1,45 @@
+# Current time Thu Jan 13 08:18:24 2022
+# ModelSim SE Stack Trace
+# Program = vish
+# Id = "2020.4"
+# Version = "2020.10"
+# Date = "Oct 13 2020"
+# Platform = win64
+
+Exception c0000005 has occurred at address 639f29a8. Traceback:
+# 0    0x639f29a8: 'Tk_ConfigureWidget + 0xa88'
+# 1    0x639f29d8: 'Tk_ConfigureWidget + 0xab8'
+# 2    0x639f29d8: 'Tk_ConfigureWidget + 0xab8'
+# 3    0x639f431a: 'Tk_GetOption + 0x7a'
+# 4    0x4031d2fe: 'Mtirpc_Init + 0x1ace3e'
+# 5    0x401b0f7b: 'Mtirpc_Init + 0x40abb'
+# 6    0x40201f1d: 'Mtirpc_Init + 0x91a5d'
+# 7    0x40205c78: 'Mtirpc_Init + 0x957b8'
+# 8    0x40206b70: 'Mtirpc_Init + 0x966b0'
+# 9    0x40208e79: 'Mtirpc_Init + 0x989b9'
+# 10   0x401b734e: 'Mtirpc_Init + 0x46e8e'
+# 11   0x401b4f51: 'Mtirpc_Init + 0x44a91'
+# 12   0x63b17103: 'TclNRRunCallbacks + 0x63'
+# 13   0xbee20d9a: 'Itcl_EvalMemberCode + 0x3ba'
+# 14   0xbee21f5b: 'Itcl_ExecMethod + 0x23b'
+# 15   0xbee29a19: 'Itcl_EvalArgs + 0x1c9'
+# 16   0xbee24cf1: 'Itcl_HandleInstance + 0x2c1'
+# 17   0x63b17103: 'TclNRRunCallbacks + 0x63'
+# 18   0x63b18974: 'Tcl_EvalEx + 0xa34'
+# 19   0x63b17f68: 'Tcl_EvalEx + 0x28'
+# 20   0x6395431a: 'Tk_BindEvent + 0x91a'
+# 21   0x6398bd41: 'TkBindEventProc + 0x291'
+# 22   0x6399c614: 'Tk_HandleEvent + 0x2f4'
+# 23   0x6399b2da: 'TkDeleteThreadExitHandler + 0x31a'
+# 24   0x63bca56d: 'Tcl_ServiceEvent + 0xed'
+# 25   0x63bca9e4: 'Tcl_DoOneEvent + 0x184'
+# 26   0x6399aee5: 'Tk_MainLoop + 0x25'
+# 27   0x639dd282: 'Tk_MainEx + 0x932'
+# 28   0x40193fba: 'Mtirpc_Init + 0x23afa'
+# 29   0x40196947: 'Mtirpc_Init + 0x26487'
+# 30   0x407062af: 'Tclsqlite3_Init + 0x1b9bf'
+# 31   0xc9207034: 'BaseThreadInitThunk + 0x14'
+# 32   0xca2e2651: 'RtlUserThreadStart + 0x21'
+StackWalk failed 0
+# End of Stack Trace
+

@@ -1,0 +1,152 @@
+D:/cpu_design/dpmem.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/cpu_design/dpmem.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package Sys_Definition
+-- Compiling entity dpmem
+-- Compiling architecture dpmem_arch of dpmem
+
+} {} {}} D:/cpu_design/PC.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/cpu_design/PC.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package Sys_Definition
+-- Compiling entity pc
+-- Compiling architecture pc_behave of pc
+
+} {} {}} D:/cpu_design/IR.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/cpu_design/IR.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package Sys_Definition
+-- Compiling entity instruction_register
+-- Compiling architecture instruction_register_behave of instruction_register
+
+} {} {}} D:/cpu_design/controller.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/cpu_design/controller.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package NUMERIC_STD
+-- Loading package Sys_Definition
+-- Compiling entity controller
+-- Compiling architecture controller_behave of controller
+
+} {} {}} D:/cpu_design/datapath.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/cpu_design/datapath.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package Sys_Definition
+-- Compiling entity datapath
+-- Compiling architecture datapath_arc of datapath
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity mux3to1
+-- Loading entity register_file
+-- Loading entity ALU
+
+} {} {}} D:/cpu_design/dpmem_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/cpu_design/dpmem_tb.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package Sys_Definition
+-- Compiling entity dpmem_tb
+-- Compiling architecture behavior of dpmem_tb
+
+} {} {}} D:/cpu_design/alu.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/cpu_design/alu.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package Sys_Definition
+-- Compiling entity ALU
+-- Compiling architecture ALU of ALU
+
+} {} {}} D:/cpu_design/register_file.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/cpu_design/register_file.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package Sys_Definition
+-- Compiling entity register_file
+-- Compiling architecture register_file of register_file
+
+} {} {}} D:/cpu_design/cpu_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/cpu_design/cpu_tb.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity cpu_tb
+-- Compiling architecture behavior of cpu_tb
+-- Loading package NUMERIC_STD
+-- Loading package Sys_Definition
+-- Loading entity cpu
+
+} {} {}} D:/cpu_design/system_definition.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/cpu_design/system_definition.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package Sys_Definition
+-- Compiling package body Sys_Definition
+-- Loading package Sys_Definition
+
+} {} {}} D:/cpu_design/cpu.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/cpu_design/cpu.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package Sys_Definition
+-- Compiling entity cpu
+-- Compiling architecture cpu_behave of cpu
+-- Loading entity controller
+-- Loading entity pc
+-- Loading entity instruction_register
+-- Loading entity mux3to1
+-- Loading entity datapath
+-- Loading entity dpmem
+
+} {} {}} D:/cpu_design/mux3to1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/cpu_design/mux3to1.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package Sys_Definition
+-- Compiling entity mux3to1
+-- Compiling architecture mux3to1 of mux3to1
+
+} {} {}}

@@ -1,0 +1,680 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/modeltech64_2020.4/examples
+Ealu
+Z0 w1641794516
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx4 work 14 sys_definition 0 22 b@2Jk:;6m[CO@OA91U>nJ3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 307
+Z7 dD:/cpu_design
+Z8 8D:/cpu_design/alu.vhd
+Z9 FD:/cpu_design/alu.vhd
+l0
+L6 1
+VjD2k0GM`OoVB:nhameze00
+!s100 bzC@>eXGo1b6`f`FF[=>33
+Z10 OL;C;2020.4;71
+32
+Z11 !s110 1641794597
+!i10b 1
+Z12 !s108 1641794597.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/cpu_design/alu.vhd|
+Z14 !s107 D:/cpu_design/alu.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Aalu
+R1
+R2
+R3
+R4
+R5
+R6
+Z17 DEx4 work 3 alu 0 22 jD2k0GM`OoVB:nhameze00
+!i122 307
+l18
+L16 21
+V4mANdg]>Fdo:LK_X[d]Xf1
+!s100 H=7e0c:LKFU0SKZiFcZB93
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Econtroller
+Z18 w1641794453
+R1
+R2
+R3
+R5
+R6
+!i122 315
+R7
+Z19 8D:/cpu_design/controller.vhd
+Z20 FD:/cpu_design/controller.vhd
+l0
+L9 1
+VAFeH?JnYjb9?H2Y^b4^4^3
+!s100 ?O6T?hfzT;CJVj4D=3Y`L0
+R10
+32
+Z21 !s110 1641799838
+!i10b 1
+Z22 !s108 1641799838.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/cpu_design/controller.vhd|
+Z24 !s107 D:/cpu_design/controller.vhd|
+!i113 0
+R15
+R16
+Acontroller_behave
+R1
+R2
+R3
+R5
+R6
+Z25 DEx4 work 10 controller 0 22 AFeH?JnYjb9?H2Y^b4^4^3
+!i122 315
+l52
+L39 151
+Vj8NQf1O:Kd@bo@U]]oI5J2
+!s100 j@nNjJdR85BX`c@FbD6Sc1
+R10
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R15
+R16
+Acontroller
+R1
+Z26 DPx4 work 14 sys_definition 0 22 A];AiE4k`=c4>hjgaoMcO0
+R3
+R5
+R6
+DEx4 work 10 controller 0 22 `fzD7g7@B4bm8;iJhUknV3
+!i122 56
+l59
+L48 149
+Vih^BBZj]kfUYHMVWMEb>43
+!s100 ]>Pa0z<XUb<d0k1_5@JXS1
+R10
+32
+!s110 1641710182
+!i10b 1
+!s108 1641710182.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/simp_cpu/controller.vhd|
+!s107 D:/simp_cpu/controller.vhd|
+!i113 0
+R15
+R16
+w1641710176
+FD:/simp_cpu/controller.vhd
+8D:/simp_cpu/controller.vhd
+Ecpu
+Z27 w1641800493
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 366
+R7
+Z28 8D:/cpu_design/cpu.vhd
+Z29 FD:/cpu_design/cpu.vhd
+l0
+L7 1
+Vg2Fl[OG>>QMafcTLEz=NR3
+!s100 A;;[F=`F<WLNc^L?j9`XJ1
+R10
+32
+Z30 !s110 1641821612
+!i10b 1
+Z31 !s108 1641821612.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/cpu_design/cpu.vhd|
+Z33 !s107 D:/cpu_design/cpu.vhd|
+!i113 0
+R15
+R16
+Acpu_behave
+Z34 DEx4 work 5 dpmem 0 22 Rzc4f`[CQBNG:K]A4N<4L1
+Z35 DEx4 work 8 datapath 0 22 ;M;LA[^4JOe75cDkz3IF@3
+Z36 DEx4 work 7 mux3to1 0 22 J2UnK6F?aDEMY[2MIN6A@1
+Z37 DEx4 work 20 instruction_register 0 22 `QFm6V@EMF9?ZFTZHoIU_0
+Z38 DEx4 work 2 pc 0 22 ^]a[LiT>FA7g^bbjDV>gJ1
+R25
+R1
+R2
+R3
+R4
+R5
+R6
+Z39 DEx4 work 3 cpu 0 22 g2Fl[OG>>QMafcTLEz=NR3
+!i122 366
+l60
+L17 73
+VmK1K@aVaRGG>1hGCjGMKI3
+!s100 gO=1An3KGhzcNkW?@GZ3L1
+R10
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R15
+R16
+Ecpu_tb
+Z40 w1641806399
+R3
+R4
+R5
+R6
+!i122 346
+R7
+Z41 8D:/cpu_design/cpu_tb.vhd
+Z42 FD:/cpu_design/cpu_tb.vhd
+l0
+L6 1
+VMXLSUcWW:LScGkKdHKelf1
+!s100 `O^8cLPcK:MoL4z:jjKU02
+R10
+32
+Z43 !s110 1641807016
+!i10b 1
+Z44 !s108 1641807016.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/cpu_design/cpu_tb.vhd|
+Z46 !s107 D:/cpu_design/cpu_tb.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R1
+R2
+R39
+R3
+R4
+R5
+R6
+DEx4 work 6 cpu_tb 0 22 MXLSUcWW:LScGkKdHKelf1
+!i122 346
+l15
+L12 19
+V@>]>FRLA7T:o`6j5Cjf5n1
+!s100 oJHnX3z<WU=9DDbMSbkmm1
+R10
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 0
+R15
+R16
+Tcpu_tb_opt
+!s110 1641821647
+VQo7Pd1zS4k71go@VgULOc2
+04 6 8 work cpu_tb behavior 1
+o+acc
+tCvgOpt 0
+ncpu_tb_opt
+OL;O;2020.4;71
+Edatapath
+Z47 w1641787973
+R1
+R2
+R5
+R6
+!i122 285
+R7
+Z48 8D:/cpu_design/datapath.vhd
+Z49 FD:/cpu_design/datapath.vhd
+l0
+L5 1
+V;M;LA[^4JOe75cDkz3IF@3
+!s100 hRmmlN<F6]Y:;I^FYcmjD2
+R10
+32
+Z50 !s110 1641788026
+!i10b 1
+Z51 !s108 1641788026.000000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/cpu_design/datapath.vhd|
+Z53 !s107 D:/cpu_design/datapath.vhd|
+!i113 0
+R15
+R16
+Adatapath_arc
+R17
+Z54 DEx4 work 13 register_file 0 22 <l9al9[QjB14fQ3SQ;=<j3
+R3
+R4
+R36
+R1
+R2
+R5
+R6
+R35
+!i122 285
+l29
+L24 37
+Vf>lghfHm6mBmCNBRAJ3]l3
+!s100 ;^2eoR@c3UAEVR7lSz?0a3
+R10
+32
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 0
+R15
+R16
+Edpmem
+Z55 w1641821634
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 368
+R7
+Z56 8D:/cpu_design/dpmem.vhd
+Z57 FD:/cpu_design/dpmem.vhd
+l0
+L10 1
+VRzc4f`[CQBNG:K]A4N<4L1
+!s100 FkL2nOa^85`dUDa3m2]]A2
+R10
+32
+Z58 !s110 1641821636
+!i10b 1
+Z59 !s108 1641821636.000000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/cpu_design/dpmem.vhd|
+Z61 !s107 D:/cpu_design/dpmem.vhd|
+!i113 0
+R15
+R16
+Adpmem_arch
+R1
+R2
+R3
+R4
+R5
+R6
+R34
+!i122 368
+l69
+L31 64
+V1^SR>ZVV=30mf^:6Z:ajU3
+!s100 CIDD]Xc7:IkeMSo_WC?4G2
+R10
+32
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 0
+R15
+R16
+Edpmem_tb
+Z62 w1641739241
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 267
+R7
+Z63 8D:/cpu_design/dpmem_tb.vhd
+Z64 FD:/cpu_design/dpmem_tb.vhd
+l0
+L9 1
+VKSY7SeIOj03>]1og3GaG32
+!s100 j7Z:oEPdZaOaXX>FKl9F13
+R10
+32
+Z65 !s110 1641783666
+!i10b 1
+Z66 !s108 1641783666.000000
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/cpu_design/dpmem_tb.vhd|
+Z68 !s107 D:/cpu_design/dpmem_tb.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 8 dpmem_tb 0 22 KSY7SeIOj03>]1og3GaG32
+!i122 267
+l31
+L15 75
+VTh3JAz:8ThPXZ<j6gGiQL3
+!s100 WY59j`3X5dS@3dez<Z?b[0
+R10
+32
+R65
+!i10b 1
+R66
+R67
+R68
+!i113 0
+R15
+R16
+Einstruction_register
+Z69 w1641708162
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 268
+R7
+Z70 8D:/cpu_design/IR.vhd
+Z71 FD:/cpu_design/IR.vhd
+l0
+L7 1
+V`QFm6V@EMF9?ZFTZHoIU_0
+!s100 >>c_0hm5`^3[91jBJ1i^H2
+R10
+32
+R65
+!i10b 1
+R66
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/cpu_design/IR.vhd|
+Z73 !s107 D:/cpu_design/IR.vhd|
+!i113 0
+R15
+R16
+Ainstruction_register_behave
+R1
+R2
+R3
+R4
+R5
+R6
+R37
+!i122 268
+l20
+L18 13
+VSBkDFUEa[8fe4nZNECTLC0
+!s100 RUFzNPRN;bTgj]G4R_NaG3
+R10
+32
+R65
+!i10b 1
+R66
+R72
+R73
+!i113 0
+R15
+R16
+Emux3to1
+Z74 w1641733752
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 348
+R7
+Z75 8D:/cpu_design/mux3to1.vhd
+Z76 FD:/cpu_design/mux3to1.vhd
+l0
+L9 1
+VJ2UnK6F?aDEMY[2MIN6A@1
+!s100 Q>:X6oUlY4JAe0QlkUlHN2
+R10
+32
+!s110 1641807504
+!i10b 1
+Z77 !s108 1641807504.000000
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/cpu_design/mux3to1.vhd|
+Z79 !s107 D:/cpu_design/mux3to1.vhd|
+!i113 0
+R15
+R16
+Amux3to1
+R1
+R2
+R3
+R4
+R5
+R6
+R36
+!i122 348
+l19
+Z80 L18 7
+Voe;]nbMQF<nGiYZ9d1I``0
+!s100 76UjDJfJ0Z^1`G]cE:63_3
+R10
+32
+!s110 1641807505
+!i10b 1
+R77
+R78
+R79
+!i113 0
+R15
+R16
+Amux3to1_behave
+R1
+R26
+R3
+R4
+R5
+R6
+R36
+!i122 117
+l19
+R80
+V01E9`LK7`<kB6^MiUPoTA0
+!s100 C^JcNY4jYL7:24PShEBlk2
+R10
+32
+!s110 1641713213
+!i10b 1
+!s108 1641713213.000000
+R78
+R79
+!i113 0
+R15
+R16
+w1641708182
+Epc
+Z81 w1641793936
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 304
+R7
+Z82 8D:/cpu_design/PC.vhd
+Z83 FD:/cpu_design/PC.vhd
+l0
+L7 1
+V^]a[LiT>FA7g^bbjDV>gJ1
+!s100 8WNmN40[imHnjaZB=6CR^0
+R10
+32
+Z84 !s110 1641793938
+!i10b 1
+Z85 !s108 1641793938.000000
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/cpu_design/PC.vhd|
+Z87 !s107 D:/cpu_design/PC.vhd|
+!i113 0
+R15
+R16
+Apc_behave
+R1
+R2
+R3
+R4
+R5
+R6
+R38
+!i122 304
+l20
+L18 20
+V]V4PM_ka?R8B25QgF[hNL2
+!s100 GAcX3=^@9jdbnF2YSYahz2
+R10
+32
+R84
+!i10b 1
+R85
+R86
+R87
+!i113 0
+R15
+R16
+Eregister_file
+Z88 w1641739261
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 271
+R7
+Z89 8D:/cpu_design/register_file.vhd
+Z90 FD:/cpu_design/register_file.vhd
+l0
+L7 1
+V<l9al9[QjB14fQ3SQ;=<j3
+!s100 BoT3W>T[OTg>@GQa;zgCb1
+R10
+32
+Z91 !s110 1641783667
+!i10b 1
+R66
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/cpu_design/register_file.vhd|
+Z93 !s107 D:/cpu_design/register_file.vhd|
+!i113 0
+R15
+R16
+Aregister_file
+R1
+R2
+R3
+R4
+R5
+R6
+R54
+!i122 271
+l30
+L25 32
+VYN_D@Ng[I6nnTBho]DJED1
+!s100 lZ0RckOYHfN09U:LmoL>L3
+R10
+32
+R91
+!i10b 1
+R66
+R92
+R93
+!i113 0
+R15
+R16
+Aregister_file_behave
+R1
+DPx4 work 17 system_definition 0 22 0k0BcU=mgc95n^[C?GfjJ2
+R3
+R4
+R5
+R6
+DEx4 work 13 register_file 0 22 i;7K1C<hjKj3g3?;aMTlA0
+!i122 25
+l40
+L34 40
+VIm3B`X@o>ILWcz]<2FDh@0
+!s100 oiW_HN1S>_aDc0gjOhTPg1
+R10
+32
+!s110 1641705015
+!i10b 1
+!s108 1641705014.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/V1/register_file.vhd|
+!s107 D:/V1/register_file.vhd|
+!i113 0
+R15
+R16
+w1641690551
+FD:/V1/register_file.vhd
+8D:/V1/register_file.vhd
+Psys_definition
+R1
+R5
+R6
+!i122 355
+Z94 w1641739014
+R7
+Z95 8D:/cpu_design/system_definition.vhd
+Z96 FD:/cpu_design/system_definition.vhd
+l0
+L7 1
+Vb@2Jk:;6m[CO@OA91U>nJ3
+!s100 PTjm:m2RH1PYo^AAi7mNR3
+R10
+32
+Z97 !s110 1641808310
+!i10b 1
+Z98 !s108 1641808310.000000
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/cpu_design/system_definition.vhd|
+Z100 !s107 D:/cpu_design/system_definition.vhd|
+!i113 0
+R15
+R16
+Bbody
+R2
+R1
+R5
+R6
+!i122 355
+l0
+L187 1
+V1d@aE`c1[P[a?<De2V]U[3
+!s100 bD2C2eUhPW>QCkzah=YMY0
+R10
+32
+R97
+!i10b 1
+R98
+R99
+R100
+!i113 0
+R15
+R16
